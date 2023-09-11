@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_OPENAI_API_KEY';
+const apiKey = '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';
 const apiUrl = 'https://api.openai.com/v1/engines/davinci/completions';
 
 const textInput = document.getElementById('textInput');

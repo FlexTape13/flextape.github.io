@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speech-to-Text and Text-to-Speech</title>
+    <title>Text Processing with OpenAI</title>
 </head>
 <body>
-    <h1>Speech-to-Text and Text-to-Speech</h1>
+    <h1>Text Processing with OpenAI</h1>
     <div>
-        <h2>Speech to Text</h2>
-        <button id="startRecording">Start Recording</button>
-        <button id="stopRecording" disabled>Stop Recording</button>
-        <div id="transcription"></div>
+        <h2>Text Input</h2>
+        <textarea id="textInput" rows="4" cols="50" placeholder="Enter text..."></textarea>
+        <button id="processText">Process Text</button>
     </div>
     <div>
-        <h2>Text to Speech</h2>
-        <input type="text" id="textInput" placeholder="Enter text">
-        <button id="convertToSpeech">Convert to Speech</button>
-        <audio id="audioPlayer" controls></audio>
+        <h2>Output</h2>
+        <div id="output"></div>
     </div>
 
     <script src="script.js"></script>
